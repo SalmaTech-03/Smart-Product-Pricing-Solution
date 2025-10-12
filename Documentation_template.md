@@ -106,7 +106,7 @@ Our iterative multi-stage solution, combining structured feature engineering, se
 
 ### A. Code Artefacts
 
-[Insert link to your complete code repository / Google Drive]
+https://github.com/SalmaTech-03/Smart-Product-Pricing-Solution
 
 ### B. Additional Results
 
