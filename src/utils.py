@@ -28,7 +28,7 @@ def download_images(image_links, download_folder):
         os.makedirs(download_folder)
     results = []
     download_image_partial = partial(download_image, savefolder=download_folder)
-    with multiprocessing.Pool(100) as pool:
+    with multiprocessing.Pool(8) as pool:
         for result in tqdm(pool.imap(download_image_partial, image_links), total=len(image_links)):
             results.append(result)
         pool.close()
